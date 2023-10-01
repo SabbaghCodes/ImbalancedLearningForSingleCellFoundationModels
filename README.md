@@ -1,4 +1,4 @@
-# Single Cell Foundation Models For Imbalanced Learning: A Comparative Study
-[![DOI](https://zenodo.org/badge/x.svg)]
+Foundation Models Meet Imbalanced Single-Cell Data When Learning Cell Type Annotations
+
 
 
