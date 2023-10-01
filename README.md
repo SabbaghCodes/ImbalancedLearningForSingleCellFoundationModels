@@ -8,8 +8,8 @@ In this repository, we share the code and data for reproducability.
 ## Setup
 Although each foundation model has its own configuration steps, we provide you with a universal configuration as follows:
 * Python version: `3.8.17`.
-* Cuda version: '11.7'.
-* All dependencies are available in `requirements.txt`, run 'pip install -r requirements.txt'.
+* Cuda version: `11.7`.
+* All dependencies are available in `requirements.txt`, run `pip install -r requirements.txt`.
 * To install FlashAttention without any problems, use the Pytorch Docker container. We used Singularity as follows:
   ```
   singularity pull docker://nvcr.io/nvidia/pytorch:22.08-py3
