@@ -29,7 +29,7 @@ To access the more broader code for each foundation model and their papers, plea
 * [Geneformer repository](https://huggingface.co/ctheodoris/Geneformer), and [Geneformer paper](https://www.nature.com/articles/s41586-023-06139-9)
 
 ## Datasets & Preprocessing
-Datasets (MS and Zheng68K) and their sampling variations (undersampled, oversampled, and imputed) can be found inside the [data](data) directory. You can also find the preprocessing code for upsampling, downsampling, imputation, and converting the gene expression matrix into ordinal gene tokens (for Geneformer) in `data/preprocessing.ipynb`.
+Datasets (MS and Zheng68K) and their sampling variations (undersampled, oversampled, and imputed) can be found inside the [data](data) directory. You can also find the preprocessing code for undersampling, oversampling, imputation, and converting the gene expression matrix into ordinal gene tokens (for Geneformer) in `data/preprocessing.ipynb`.
 
 ## Pretrained Model Weights
 You can find the pretrained model weights for all foundation models inside [pretrained_model_weights](pretrained_model_weights) directory:
