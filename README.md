@@ -22,3 +22,7 @@ For simplicity, we provide Jupyter notebooks containing codes for the cell type 
 * [scGPT repository](https://github.com/bowang-lab/scGPT), and [scGPT paper](https://www.biorxiv.org/content/10.1101/2023.04.30.538439v2).
 * [scBERT repository](https://github.com/TencentAILabHealthcare/scBERT), and [scBERT paper](https://www.nature.com/articles/s42256-022-00534-z).
 * [Geneformer repository](https://huggingface.co/ctheodoris/Geneformer), and [Geneformer paper](https://www.nature.com/articles/s41586-023-06139-9).
+
+## Datasets & Preprocessing
+Datasets (MS and Zheng68K) and their sampling variations (undersampled, oversampled, and imputed) can be found inside the `data` directory. You can also find the preprocessing code for upsampling, downsampling, imputation, and converting the gene expression matrix into ordinal gene tokens (for Geneformer) in `data/preprocessing.ipynb`.
+
