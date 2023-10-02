@@ -10,7 +10,7 @@ Although each foundation model has its own configuration steps, we provide you w
 * Python version: `3.8.17`.
 * Cuda version: `11.7`.
 * GPU: NVIDIA A100.
-* All dependencies are available in `requirements.txt`, just run `pip install -r requirements.txt`.
+* All dependencies are available in [`requirements.txt`](requirements.txt), just run `pip install -r requirements.txt`.
 * To install FlashAttention without any problems, use the Pytorch Docker container. We used Singularity as follows:
   ```
   singularity pull docker://nvcr.io/nvidia/pytorch:22.08-py3
@@ -29,7 +29,7 @@ To access the more broader code for each foundation model and their papers, plea
 * [Geneformer repository](https://huggingface.co/ctheodoris/Geneformer), and [Geneformer paper](https://www.nature.com/articles/s41586-023-06139-9)
 
 ## Datasets & Preprocessing
-Datasets (MS and Zheng68K) and their sampling variations (undersampled, oversampled, and imputed) can be found inside the [data](data) directory. You can also find the preprocessing code for undersampling, oversampling, imputation, and converting the gene expression matrix into ordinal gene tokens (for Geneformer) in [data/preprocessing.ipynb](data/preprocessing.ipynb).
+Datasets (MS and Zheng68K) and their sampling variations (undersampled, oversampled, and imputed) can be found inside the [data](data) directory. You can also find the preprocessing code for undersampling, oversampling, imputation, and converting the gene expression matrix into ordinal gene tokens (for Geneformer) in [`data/preprocessing.ipynb`](data/preprocessing.ipynb).
 
 ## Pretrained Model Weights
 You can find the pretrained model weights for all foundation models inside [pretrained_model_weights](pretrained_model_weights) directory:
