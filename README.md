@@ -25,4 +25,3 @@ For simplicity, we provide Jupyter notebooks containing codes for the cell type 
 
 ## Datasets & Preprocessing
 Datasets (MS and Zheng68K) and their sampling variations (undersampled, oversampled, and imputed) can be found inside the `data` directory. You can also find the preprocessing code for upsampling, downsampling, imputation, and converting the gene expression matrix into ordinal gene tokens (for Geneformer) in `data/preprocessing.ipynb`.
-
