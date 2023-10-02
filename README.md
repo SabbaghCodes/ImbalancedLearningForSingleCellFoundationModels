@@ -18,7 +18,7 @@ Although each foundation model has its own configuration steps, we provide you w
   ```
 
 ## Models
-For simplicity, we provide Jupyter notebooks containing codes for the cell type annotation task for each foundation model inside [models](models) directory:
+For simplicity, we provide Jupyter notebooks containing codes for the cell type annotation task for each foundation model inside [`models`](models) directory:
 * [scGPT notebook](models/scGPT.ipynb)
 * [scBERT notebook](models/scBERT.ipynb)
 * [Geneformer notebook](models/Geneformer.ipynb)
@@ -32,7 +32,7 @@ To access the more broader code for each foundation model and their papers, plea
 Datasets (MS and Zheng68K) and their sampling variations (undersampled, oversampled, and imputed) can be found inside the [data](data) directory. You can also find the preprocessing code for undersampling, oversampling, imputation, and converting the gene expression matrix into ordinal gene tokens (for Geneformer) in [`data/preprocessing.ipynb`](data/preprocessing.ipynb).
 
 ## Pretrained Model Weights
-You can find the pretrained model weights for all foundation models inside [pretrained_model_weights](pretrained_model_weights) directory:
+You can find the pretrained model weights for all foundation models inside [`pretrained_model_weights`](pretrained_model_weights) directory:
 * [scGPT pretrained weights](pretrained_model_weights/scGPT.pt)
 * [scBERT pretrained weights](pretrained_model_weights/scBERT.pt)
 * [Geneformer pretrained weights](pretrained_model_weights/Geneformer.pt)
