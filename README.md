@@ -17,8 +17,8 @@ Although each foundation model has its own configuration steps, we provide you w
   singularity run --nv pytorch_2.0.0-cuda11.7-cudnn8-devel.sif
   ```
 
-  ## Models
-  For simplicity, we provide Jupyter notebooks containing codes for the cell type annotation task for each foundation model inside `models` directory. To access the more broader code for each foundation model and their papers, please refer to the links as follows:
-  * [scGPT repository](https://github.com/bowang-lab/scGPT), and [scGPT paper](https://www.biorxiv.org/content/10.1101/2023.04.30.538439v2).
-  * [scBERT repository](https://github.com/TencentAILabHealthcare/scBERT), and [scBERT paper](https://www.nature.com/articles/s42256-022-00534-z).
-  * [Geneformer repository](https://huggingface.co/ctheodoris/Geneformer), and [Geneformer paper](https://www.nature.com/articles/s41586-023-06139-9).
+## Models
+For simplicity, we provide Jupyter notebooks containing codes for the cell type annotation task for each foundation model inside `models` directory. To access the more broader code for each foundation model and their papers, please refer to the links as follows:
+* [scGPT repository](https://github.com/bowang-lab/scGPT), and [scGPT paper](https://www.biorxiv.org/content/10.1101/2023.04.30.538439v2).
+* [scBERT repository](https://github.com/TencentAILabHealthcare/scBERT), and [scBERT paper](https://www.nature.com/articles/s42256-022-00534-z).
+* [Geneformer repository](https://huggingface.co/ctheodoris/Geneformer), and [Geneformer paper](https://www.nature.com/articles/s41586-023-06139-9).
