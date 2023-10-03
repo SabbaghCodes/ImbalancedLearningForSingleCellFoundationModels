@@ -8,7 +8,7 @@ In this repository, we share the code and data for reproducability.
 ## Setup
 Although each foundation model has its own configuration steps, we provide you with a universal configuration as follows:
 * Python version: `3.8.17`.
-* Cuda version: `11.7`.
+* CUDA version: `11.7`.
 * GPU: NVIDIA A100.
 * All dependencies are available in [`requirements.txt`](requirements.txt), just run `pip install -r requirements.txt`.
 * To install FlashAttention without any problems, use the Pytorch Docker container. We used Singularity as follows:
