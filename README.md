@@ -1,5 +1,5 @@
 # Foundation Models Meet Imbalanced Single-Cell Data When Learning Cell Type Annotations
-
+[![DOI](https://zenodo.org/badge/doi/10.1101/2023.10.24.563625.svg)](https://doi.org/10.1101/2023.10.24.563625)
 ## Abstarct 
 With the emergence of single-cell foundation models, an important question arises: how do these models perform when trained on datasets having an imbalance in cell type distribution due to rare cell types or biased sampling? Using skewed single-cell cell-type distribution, we benchmark foundation models, scGPT, scBERT, and Geneformer, for cell-type annotation. While all models had reduced performance when challenged with rare cell types, scGPT, scBERT, performed better than Geneformer. Notably, in contrast to scGPT and scBERT, Geneformer uses ordinal positions of the tokenized genes rather than actual raw gene expression values. To mitigate the effect of a skewed distribution, we find that random oversampling, but not random undersampling, improved the performance for all three foundation models. Finally, scGPT, using FlashAttention, has the fastest computational speed, whereas scBERT is much more memory-efficient. We conclude that tokenization and data representation are essential areas of research, and new strategies are needed to mitigate the effects of imbalanced learning in single-cell foundation models.
 
